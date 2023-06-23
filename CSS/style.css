@@ -12,12 +12,22 @@
 }
 
 body{
-    background-color: white;
-    
-    width: 100vw;
-    height: 100vh;
 
-}
+    background-image: url(/Imagens/imagens_manga/aramakimemeshanks.png),; 
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    
+    }
+
+
+    /* url(/Imagens/imagens_manga/bglawkd.png), url(/Imagens/imagens_manga/bglawkd1.png),url(/Imagens/imagens_manga/cpbiglaw.png),url(/Imagens/imagens_manga/cpzoro.png),url(/Imagens/imagens_manga/imperadores.png), */
+ /* url(/Imagens/imagens_manga/luffykaido.png),url(/Imagens/imagens_manga/luffykaido1.png),url(/Imagens/imagens_manga/luffynikaa.png),url(/Imagens/imagens_manga/lulusia.png), */
+ /* url(/Imagens/imagens_manga/nikashanks.png),url(/Imagens/imagens_manga/nikkagigante.png),url(/Imagens/imagens_manga/nikkapuxakaido.png),url(/Imagens/imagens_manga/saaboreichamas.png); */ */
+    
+    /* width: 100vw;
+    height: 100vh; */
+
 
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
