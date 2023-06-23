@@ -1,38 +1,50 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'one piece' ;
+    font-family: 'one piece';
     src: url('../Fonte/one piece font.ttf') format(truetype);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
+    background-color: rgba(248, 218, 153, 0.432);
+    background-image: 
+        url(/Imagens/imagens_manga/aramakimemeshanks.png),
+        url(/Imagens/imagens_manga/bglawkd.png),
+        url(/Imagens/imagens_manga/bglawkd1.png),
+        url(/Imagens/imagens_manga/cpbiglaw.png),
+        url(/Imagens/imagens_manga/cpzoro.png),
+        url(/Imagens/imagens_manga/imperadores.png),
+        url(/Imagens/imagens_manga/luffykaido.png),
+        url(/Imagens/imagens_manga/luffykaido1.png),
+        url(/Imagens/imagens_manga/luffynikaa.png),
+        url(/Imagens/imagens_manga/lulusia.png),
+        url(/Imagens/imagens_manga/nikashanks.png),
+        url(/Imagens/imagens_manga/nikkagigante.png),
+        url(/Imagens/imagens_manga/nikkapuxakaido.png),
+        url(/Imagens/imagens_manga/saaboreichamas.png);
 
-    background-image: url(/Imagens/imagens_manga/aramakimemeshanks.png),; 
+         
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
     
-    }
+
+}
 
 
-    /* url(/Imagens/imagens_manga/bglawkd.png), url(/Imagens/imagens_manga/bglawkd1.png),url(/Imagens/imagens_manga/cpbiglaw.png),url(/Imagens/imagens_manga/cpzoro.png),url(/Imagens/imagens_manga/imperadores.png), */
- /* url(/Imagens/imagens_manga/luffykaido.png),url(/Imagens/imagens_manga/luffykaido1.png),url(/Imagens/imagens_manga/luffynikaa.png),url(/Imagens/imagens_manga/lulusia.png), */
- /* url(/Imagens/imagens_manga/nikashanks.png),url(/Imagens/imagens_manga/nikkagigante.png),url(/Imagens/imagens_manga/nikkapuxakaido.png),url(/Imagens/imagens_manga/saaboreichamas.png); */ */
-    
-    /* width: 100vw;
-    height: 100vh; */
 
-
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 50px;
-    
+
 }
 
 
