@@ -3,6 +3,13 @@
 @font-face {
     font-family: 'one piece';
     src: url('../Fonte/one piece font.ttf') format(truetype);
+    
+}
+
+@font-face {
+    font-family:'knewave' ;
+    src: url('../Fonte/knewave-master/knewave.ttf');
+    
 }
 
 * {
@@ -14,24 +21,11 @@
 body {
     background-color: rgba(248, 218, 153, 0.432);
     background-image: 
-        url(/Imagens/imagens_manga/aramakimemeshanks.png),
-        url(/Imagens/imagens_manga/bglawkd.png),
-        url(/Imagens/imagens_manga/bglawkd1.png),
-        url(/Imagens/imagens_manga/cpbiglaw.png),
-        url(/Imagens/imagens_manga/cpzoro.png),
-        url(/Imagens/imagens_manga/imperadores.png),
-        url(/Imagens/imagens_manga/luffykaido.png),
-        url(/Imagens/imagens_manga/luffykaido1.png),
-        url(/Imagens/imagens_manga/luffynikaa.png),
-        url(/Imagens/imagens_manga/lulusia.png),
-        url(/Imagens/imagens_manga/nikashanks.png),
-        url(/Imagens/imagens_manga/nikkagigante.png),
-        url(/Imagens/imagens_manga/nikkapuxakaido.png),
-        url(/Imagens/imagens_manga/saaboreichamas.png);
+        url(../Imagens/backgournd.png);
 
          
-    background-repeat: repeat;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center,top, bottom,left;
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -41,9 +35,12 @@ body {
 
 
 
+
+
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 50px;
+    background-color: rgba(255, 255, 255, 0.555);
 
 }
 
