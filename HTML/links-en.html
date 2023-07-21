@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,63 +8,87 @@
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <style>
-  
-    
+
+
 </style>
 
 <!-- ajustar os botões para a  -->
+
 <body>
-
+    <a class="iconpais" href="links-pt.html" id=" brasil">
+        <img src="../Imagens/brasilicone-1.png" alt="">
+    </a>
+    <a class="iconpais" href="links-en.html" id="eua">
+        <img src="../Imagens/euaicone-1.png" alt="">
+    </a>
+    <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RX3d8x1WCBA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LLhzWDWHYYo" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2MsDUzyJqVQ" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qYzqDJBeI9Q" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
     <!-- utilizar o icone do botão de 3 negocios aqui  -->
-    <button 
-        id="sidebar-btt"
-        class="fa-solid fa-bars"
-        onclick="toggleSidebar()"></button>
+    <button id="sidebar-btt" class="fa-solid fa-bars" onclick="toggleSidebar()"></button>
 
-        <div class="sidebar">
-            <div class="elements">
-                <button class="btacess">
-                    <span class="icon-txt">Theories</span>
-                    <span class="icon-bg"></span>
 
-                </button>
 
-                <!-- site do artur libere of ohara -->
+    <div class="sidebar">
+        <div class="elements">
+            <button class="btacess">
+                <span class="icon-txt">Theories</span>
+                <span class="icon-bg"></span>
 
-                <button class="btacess">
-                    <span class="icon-txt">Videos</span>
-                    <span class="icon-bg"></span>
+            </button>
 
-                </button>
-                
-                
+            <!-- site do artur library of ohara -->
 
-                
+            <button class="btacess">
+                <span class="icon-txt">Videos</span>
+                <span class="icon-bg"></span>
 
-                
+            </button>
 
-            </div>
-            
+
+
+
+
+
+
         </div>
 
+    </div>
 
-        <script>
-            let visible = false
-// se caso a função for verdadeira(quando ele aperta o botão) ele mostra o sidebar, caso ela seja falsa não mostra
-            function toggleSidebar(){
-                 let sidebar = document.querySelector(".sidebar")
-                 let sidebarbutton = document.querySelector("#sidebar-btt")
 
-                 if(!visible){
-                    visible = true
-                    sidebar.classList.add("active")
-                    sidebarbutton.classList.add("active")
-                 } else {
-                    visible = false
-                    sidebar.classList.remove("active")
-                    sidebarbutton.classList.remove("active")
-                 }
+    <script>
+        let visible = false
+        // se caso a função for verdadeira(quando ele aperta o botão) ele mostra o sidebar, caso ela seja falsa não mostra
+        function toggleSidebar() {
+            let sidebar = document.querySelector(".sidebar")
+            let sidebarbutton = document.querySelector("#sidebar-btt")
+
+            if (!visible) {
+                visible = true
+                sidebar.classList.add("active")
+                sidebarbutton.classList.add("active")
+            } else {
+                visible = false
+                sidebar.classList.remove("active")
+                sidebarbutton.classList.remove("active")
             }
-        </script>
+        }
+    </script>
 </body>
+
 </html>

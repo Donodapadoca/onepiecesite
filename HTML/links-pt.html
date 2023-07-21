@@ -9,69 +9,87 @@
 </head>
 
 <style>
-  
-    
+
+
 </style>
 
 <!-- colocar icone da bandeira Brasil e dos EUA mudando o site para o link que está em outro idioma -->
+
 <body>
+    <a class="iconpais" href="links-pt.html" id=" brasil">
+        <img src="../Imagens/brasilicone-1.png" alt="">
+    </a>
+    <a class="iconpais" href="links-en.html" id="eua">
+        <img src="../Imagens/euaicone-1.png" alt="">
+    </a>
+
+    <div class="video">
+
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/g_UcaZSdyA0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xA-Xj_PeUvM" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/56kUD6teaiA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZVnpzYCKB78" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
 
     <!-- utilizar o icone do botão de 3 negocios aqui  -->
-    <button 
-        id="sidebar-btt"
-        class="fa-solid fa-bars"
-        onclick="toggleSidebar()"></button>
+    <button id="sidebar-btt" class="fa-solid fa-bars" onclick="toggleSidebar()"></button>
 
-        <!-- ajustar os button com os devidos links -->
-        <div class="sidebar">
-            <div class="elements">
-                <button class="btacess">
-                    <a class="icon-txt">Teorías</a>
-                    
+    <!-- ajustar os button com os devidos links -->
+    <div class="sidebar">
+        <div class="elements">
+            <button class="btacess">
+                <a class="icon-txt">Teorías</a>
 
-                </button>
 
-                <button class="btacess">
-                    <a class="icon-txt">Opex</a>
-                    
+            </button>
 
-                </button>
+            <button class="btacess">
+                <a class="icon-txt">Opex</a>
 
-                <button class="btacess">
-                    <a class="icon-txt">Vídeos</a>
-                    
 
-                </button>
-                
-                
+            </button>
 
-                
+            <button class="btacess">
+                <a class="icon-txt">Vídeos</a>
 
-                
 
-            </div>
-            <!-- colocar um link com "quem somos para os links dos portifolios meu e de quem ajudar a fazer isso aqui" -->
+            </button>
         </div>
+        <!-- colocar um link com "quem somos para os links dos portifolios meu e de quem ajudar a fazer isso aqui" -->
+    </div>
 
 
-        <script>
-            let visible = false
-// se caso a função for verdadeira(quando ele aperta o botão) ele mostra o sidebar, caso ela seja falsa não mostra
-            function toggleSidebar(){
-                 let sidebar = document.querySelector(".sidebar")
-                 let sidebarbutton = document.querySelector("#sidebar-btt")
+    <script>
+        let visible = false
+        // se caso a função for verdadeira(quando ele aperta o botão) ele mostra o sidebar, caso ela seja falsa não mostra
+        function toggleSidebar() {
+            let sidebar = document.querySelector(".sidebar")
+            let sidebarbutton = document.querySelector("#sidebar-btt")
 
-                 if(!visible){
-                    visible = true
-                    sidebar.classList.add("active")
-                    sidebarbutton.classList.add("active")
-                 } else {
-                    visible = false
-                    sidebar.classList.remove("active")
-                    sidebarbutton.classList.remove("active")
-                 }
+            if (!visible) {
+                visible = true
+                sidebar.classList.add("active")
+                sidebarbutton.classList.add("active")
+            } else {
+                visible = false
+                sidebar.classList.remove("active")
+                sidebarbutton.classList.remove("active")
             }
-        </script>
-        
-        </body>
+        }
+    </script>
+
+</body>
+
 </html>

@@ -38,7 +38,7 @@ body {
     border: none;
     cursor: pointer;
     font-size: 28px;
-    z-index: 1;
+    z-index: 2;
     background-color: #A6894B;
     transition: all 0.6s ease;
     position: relative;
@@ -61,6 +61,7 @@ body {
     width: 200px;
     border-radius: 0px 25px 25px 0px;
     transition: all 0.8s ease;
+    z-index: 1;
     
 
     transform: translateX(-200px);
@@ -115,6 +116,29 @@ body {
 .btacess:hover .icon-txt{
     width: fit-content;
     transition: width 1s ease;
+}
+
+.video{
+    position: absolute;
+    justify-content: right;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 300px;
+    
+}
+
+.iconpais{
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+
+}
+.a:link{
+    color: inherit;
+}
+.a:visited{
+    color: inherit;
+
 }
 
 /* .btacess .icon-bg{
