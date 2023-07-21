@@ -3,38 +3,124 @@
 @font-face {
     font-family: 'one piece';
     src: url('../Fonte/one piece font.ttf') format(truetype);
-    
+
 }
 
 @font-face {
-    font-family:'knewave' ;
+    font-family: 'knewave';
     src: url('../Fonte/knewave-master/knewave.ttf');
-    
+
 }
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
-    background-color: rgba(248, 218, 153, 0.432);
-    background-image: 
-        url(../Imagens/backgournd.png);
 
-         
-    background-repeat: no-repeat;
-    background-position: center,top, bottom,left;
+    background-image:
+        url(../Imagens/backgournd.png);
+    z-index: -1;
+    background-repeat: repeat;
+    background-position: center, top, bottom, left;
     background-size: cover;
     width: 100vw;
     height: 100vh;
-    
+
 
 }
 
+#sidebar-btt{
+    appearance: none;
+    padding: 10px; /* ajustar o icone depois  */
+    border: none;
+    cursor: pointer;
+    font-size: 28px;
+    z-index: 1;
+    background-color: #A6894B;
+    transition: all 0.6s ease;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    
+    
+}
+#sidebar-btt.active{
+    transform: rotate(90deg);
+}
 
+.sidebar{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    background: #8C8169;
+    height: 100vh;
+    width: 200px;
+    border-radius: 0px 25px 25px 0px;
+    transition: all 0.8s ease;
+    
 
+    transform: translateX(-200px);
+   
+
+}
+
+.sidebar.active{
+    transform: translateX(0);
+   
+
+}
+
+.elements {
+    padding-top: 50%;
+    padding-left: 10%;
+    height: 50px;
+    width: 30px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.btacess{
+    height: auto;
+    width: 120px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: black;
+    font-family: 'Times New Roman', Times, serif; /* colocar uma fonte mais legalzinha pff*/
+    color: white;
+    background-color: #8C6B23;
+    /* colocar um backgound interessante */
+    
+}
+
+.btacess:hover{
+    width: 75px;
+    justify-content: space-around;
+    transition: 1s ease;
+    letter-spacing: 2px;
+
+}
+
+.btacess .icon-txt{
+    width: 0;
+    overflow: hidden;
+}
+
+.btacess:hover .icon-txt{
+    width: fit-content;
+    transition: width 1s ease;
+}
+
+/* .btacess .icon-bg{
+    position: absolute;
+    clip-path: circle(50% at -110% 60%);
+    
+} */
 
 
 p {
@@ -45,7 +131,9 @@ p {
 }
 
 
-/* constrir cards  
+
+
+/* li* constrir cards  
 .carousel {
     position: relative;
     width: Scard-size;

@@ -3,10 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links em Ingês</title>
+    <title>Links em en</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
-<body>
+<style>
+  
     
+</style>
+
+<body>
+
+    <!-- utilizar o icone do botão de 3 negocios aqui  -->
+    <button 
+        id="sidebar-btt"
+        class="fa-solid fa-bars"
+        onclick="toggleSidebar()"></button>
+
+        <div class="sidebar">
+            <div class="elements">
+                <button class="btacess">
+                    <span class="icon-txt">Theories</span>
+                    <span class="icon-bg"></span>
+
+                </button>
+
+                <!-- site do artur libere of ohara -->
+
+                <button class="btacess">
+                    <span class="icon-txt">Videos</span>
+                    <span class="icon-bg"></span>
+
+                </button>
+                
+                
+
+                
+
+                
+
+            </div>
+            
+        </div>
+
+
+        <script>
+            let visible = false
+// se caso a função for verdadeira(quando ele aperta o botão) ele mostra o sidebar, caso ela seja falsa não mostra
+            function toggleSidebar(){
+                 let sidebar = document.querySelector(".sidebar")
+                 let sidebarbutton = document.querySelector("#sidebar-btt")
+
+                 if(!visible){
+                    visible = true
+                    sidebar.classList.add("active")
+                    sidebarbutton.classList.add("active")
+                 } else {
+                    visible = false
+                    sidebar.classList.remove("active")
+                    sidebarbutton.classList.remove("active")
+                 }
+            }
+        </script>
 </body>
 </html>

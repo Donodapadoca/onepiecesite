@@ -8,7 +8,69 @@
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 
-<div class="container">
-<div id="topsite"><h1>Acesse as Teorias abaixo</h1></div>
-</div>
+<style>
+  
+    
+</style>
+
+<!-- colocar icone da bandeira Brasil e dos EUA mudando o site para o link que está em outro idioma -->
+<body>
+
+    <!-- utilizar o icone do botão de 3 negocios aqui  -->
+    <button 
+        id="sidebar-btt"
+        class="fa-solid fa-bars"
+        onclick="toggleSidebar()"></button>
+
+        <div class="sidebar">
+            <div class="elements">
+                <button class="btacess">
+                    <span class="icon-txt">Teorías</span>
+                    <span class="icon-bg"></span>
+
+                </button>
+
+                <button class="btacess">
+                    <span class="icon-txt">Opex</span>
+                    <span class="icon-bg"></span>
+
+                </button>
+
+                <button class="btacess">
+                    <span class="icon-txt">Vídeos</span>
+                    <span class="icon-bg"></span>
+
+                </button>
+                
+                
+
+                
+
+                
+
+            </div>
+            
+        </div>
+
+
+        <script>
+            let visible = false
+// se caso a função for verdadeira(quando ele aperta o botão) ele mostra o sidebar, caso ela seja falsa não mostra
+            function toggleSidebar(){
+                 let sidebar = document.querySelector(".sidebar")
+                 let sidebarbutton = document.querySelector("#sidebar-btt")
+
+                 if(!visible){
+                    visible = true
+                    sidebar.classList.add("active")
+                    sidebarbutton.classList.add("active")
+                 } else {
+                    visible = false
+                    sidebar.classList.remove("active")
+                    sidebarbutton.classList.remove("active")
+                 }
+            }
+        </script>
+        
+        </body>
 </html>
