@@ -51,6 +51,7 @@ body {
     transform: rotate(90deg);
 }
 
+/* construir foto icone do sidebar */
 .sidebar{
     display: flex;
     justify-content: left;
