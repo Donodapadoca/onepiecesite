@@ -13,17 +13,19 @@
 
 </style>
 
-<!-- colocar icone da bandeira Brasil e dos EUA mudando o site para o link que está em outro idioma -->
+
 
 <body>
-    <a class="iconpais" href="links-pt.html" id=" brasil">
-        <img src="../Imagens/brasilicone-1.png" alt="">
-    </a>
-    <a class="iconpais" href="links-en.html" id="eua">
-        <img src="../Imagens/euaicone-1.png" alt="">
-    </a>
 
-    <div class="video">
+    <header>
+        <a class="iconpais" href="links-pt.html" id=" brasil">
+            <img src="../Imagens/brasilicone-1.png" alt="">
+        </a>
+        <a class="iconpais" href="links-en.html" id="eua">
+            <img src="../Imagens/euaicone-1.png" alt="">
+        </a>
+    </header>
+    <main class="video">
 
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/g_UcaZSdyA0"
             title="YouTube video player" frameborder="0"
@@ -33,15 +35,15 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/56kUD6teaiA" title="YouTube video player"
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/56kUD6teaiA" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/ZVnpzYCKB78" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-    </div>
+            allowfullscreen></iframe> -->
+    </main>
 
     <!-- utilizar o icone do botão de 3 negocios aqui  -->
     <button id="sidebar-btt" class="fa-solid fa-bars" onclick="toggleSidebar()"></button>
@@ -56,7 +58,8 @@
             </button>
 
             <button class="btacess">
-                <a class="icon-txt">Opex</a>
+                <a class="icon-txt" href="https://onepieceex.net/" target="_blank">Opex</a>
+
 
 
             </button>
@@ -66,10 +69,16 @@
 
 
             </button>
+
+
+
         </div>
         <!-- colocar um link com "quem somos para os links dos portifolios meu e de quem ajudar a fazer isso aqui" -->
     </div>
 
+    <footer>
+        <p>Feito por fãs</p>
+    </footer>
 
     <script>
         let visible = false

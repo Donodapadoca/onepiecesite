@@ -51,6 +51,10 @@ body {
     transform: rotate(90deg);
 }
 
+
+.button > a{
+    text-decoration: none;
+}
 /* construir foto icone do sidebar */
 .sidebar{
     display: flex;
@@ -101,7 +105,6 @@ body {
 }
 
 .btacess:hover{
-    width: 75px;
     justify-content: space-around;
     transition: 1s ease;
     letter-spacing: 2px;
@@ -118,6 +121,11 @@ body {
     transition: width 1s ease;
 }
 
+.btacess > a{
+    text-decoration: none;
+    color: white;
+
+}
 .video{
     position: absolute;
     justify-content: right;
@@ -131,6 +139,7 @@ body {
     margin: 0 auto;
     width: 10px;
     height: 10px;
+    text-decoration: none;
 
 }
 .a:link{
@@ -141,18 +150,26 @@ body {
 
 }
 
-/* .btacess .icon-bg{
-    position: absolute;
-    clip-path: circle(50% at -110% 60%);
-    
-} */
-
 
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 50px;
     background-color: rgba(255, 255, 255, 0.555);
 
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.247);
+    text-align: center;
+    /* padding: 5px;
+    margin-top: 10px; */
+    size: 10px;
+
+}
+
+footer > p{
+    
+    text-align: center;
+    
 }
 
 

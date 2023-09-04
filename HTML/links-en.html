@@ -15,13 +15,18 @@
 <!-- ajustar os botões para a  -->
 
 <body>
-    <a class="iconpais" href="links-pt.html" id=" brasil">
-        <img src="../Imagens/brasilicone-1.png" alt="">
-    </a>
-    <a class="iconpais" href="links-en.html" id="eua">
-        <img src="../Imagens/euaicone-1.png" alt="">
-    </a>
-    <div class="video">
+
+    <header>
+        <a class="iconpais" href="links-pt.html" id=" brasil">
+            <img src="../Imagens/brasilicone-1.png" alt="">
+        </a>
+        <a class="iconpais" href="links-en.html" id="eua">
+            <img src="../Imagens/euaicone-1.png" alt="">
+        </a>
+    </header>
+
+
+    <main class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/RX3d8x1WCBA" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -30,15 +35,15 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2MsDUzyJqVQ" title="YouTube video player"
+        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/2MsDUzyJqVQ" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/qYzqDJBeI9Q" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-    </div>
+            allowfullscreen></iframe> -->
+    </main>
     <!-- utilizar o icone do botão de 3 negocios aqui  -->
     <button id="sidebar-btt" class="fa-solid fa-bars" onclick="toggleSidebar()"></button>
 
@@ -48,19 +53,25 @@
         <div class="elements">
             <button class="btacess">
                 <span class="icon-txt">Theories</span>
-                <span class="icon-bg"></span>
+
 
             </button>
 
             <!-- site do artur library of ohara -->
 
             <button class="btacess">
-                <span class="icon-txt">Videos</span>
-                <span class="icon-bg"></span>
+                <a class="icon-txt" href="https://thelibraryofohara.com/" target="_blank">Artur</a>
+
 
             </button>
 
+            </button>
 
+            <button class="btacess">
+                <span class="icon-txt" >Videos</span>
+
+
+            </button>
 
 
 
@@ -69,6 +80,10 @@
         </div>
 
     </div>
+
+    <footer>
+        <p>Made by fãs</p>
+    </footer>
 
 
     <script>
